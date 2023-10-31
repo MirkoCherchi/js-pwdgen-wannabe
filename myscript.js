@@ -28,5 +28,9 @@ console.log(surnameInput);
 console.log(colorInput);
 console.log(parseInt(numberInput));
 
+const password = document.getElementById('password');
+
+password.innerHTML = nameInput + surnameInput + colorInput + numberInput;
+
 
 
